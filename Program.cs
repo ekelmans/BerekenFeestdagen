@@ -85,7 +85,8 @@ namespace BerekenFeestdagen
                                     $"2e Kerstdag: \t\t" + tweedekerstdag.ToString("yyyy-MM-dd") + "\n");
             }
 
-            //Console.ReadLine();
+            Console.WriteLine("Druk op enter om af te sluiten");
+            Console.ReadLine();
 
             return 0;
         }
